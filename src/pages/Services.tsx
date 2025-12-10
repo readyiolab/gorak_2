@@ -33,9 +33,13 @@ const serviceCategories = [
       { name: "Kitchen Cleaning", slug: "kitchen-cleaning" },
       { name: "Sofa Cleaning", slug: "sofa-cleaning" },
       { name: "Mattress Cleaning", slug: "mattress-cleaning" },
+      { name: "Carpet Cleaning", slug: "carpet-cleaning" },
       { name: "Pest Control", slug: "pest-control" },
       { name: "Sanitization Service", slug: "sanitization" },
       { name: "Glass Cleaning", slug: "glass-cleaning" },
+      { name: "Car Washing", slug: "car-washing" },
+      { name: "Car Detailing", slug: "car-detailing" },
+      { name: "Car Cleaning", slug: "car-cleaning" },
     ],
   },
   {
@@ -44,7 +48,6 @@ const serviceCategories = [
       { name: "Makeup Artist", slug: "makeup-artist" },
       { name: "Bridal Makeup", slug: "bridal-makeup" },
       { name: "Mehndi Artist", slug: "mehndi-artist" },
-      { name: "Security Guard Service", slug: "security-guard" },
     ],
   },
   {
@@ -63,11 +66,30 @@ const serviceCategories = [
     ],
   },
   {
-    title: "Event Management",
+    title: "Event Management & Entertainment",
     services: [
       { name: "Event Management", slug: "event-management" },
       { name: "Marriage Planning", slug: "marriage-planning" },
       { name: "Birthday Party", slug: "birthday-party" },
+      { name: "Marriage Hall", slug: "marriage-hall" },
+      { name: "Flower Decoration", slug: "flower-decoration" },
+      { name: "Catering Services", slug: "catering" },
+      { name: "Bhajan Mandali for Events", slug: "bhajan-mandali" },
+      { name: "Kirtan Party Booking", slug: "kirtan-party" },
+      { name: "Dholak & Tabla Players", slug: "dholak-tabla" },
+      { name: "Geet/Bhakti Singer Booking", slug: "singer-booking" },
+      { name: "Shiv Charcha Group Booking", slug: "shiv-charcha" },
+      { name: "Satyanarayan Katha & Puja-Paath Pandit", slug: "puja-pandit" },
+      { name: "Choreographer", slug: "choreographer" },
+      { name: "Photographer", slug: "photographer" },
+    ],
+  },
+  {
+    title: "Interior Design & Décor",
+    services: [
+      { name: "Interior Designing", slug: "interior-design" },
+      { name: "3D Design", slug: "3d-design" },
+      { name: "2D Design", slug: "2d-design" },
     ],
   },
 ];
@@ -79,7 +101,7 @@ const Services = () => {
         <title>All Services | LB Services Gorakhpur - Complete Home Services</title>
         <meta 
           name="description" 
-          content="Explore all home services offered by LB Services Gorakhpur - AC repair, electrician, plumber, cleaning, pest control, movers & packers, and more." 
+          content="Explore all home services offered by LB Services Gorakhpur - AC repair, electrician, plumber, cleaning, pest control, movers & packers, event management, and more. Services starting from ₹99." 
         />
       </Helmet>
       
@@ -94,10 +116,31 @@ const Services = () => {
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mt-2 mb-6">
                 All Services
               </h1>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-lg text-muted-foreground mb-4">
                 Choose from our comprehensive range of home services. 
                 All services come with verified technicians and service warranty.
               </p>
+              <p className="text-2xl font-bold text-primary">
+                Services Starting from ₹99/-
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Info Banner */}
+        <section className="bg-primary text-primary-foreground py-6">
+          <div className="container mx-auto px-4">
+            <div className="text-center">
+              <p className="text-lg font-semibold">Call us for instant booking:</p>
+              <div className="flex justify-center gap-6 mt-2 flex-wrap">
+                <a href="tel:9820995910" className="hover:opacity-80 transition-opacity font-bold text-xl">
+                  98209 95910
+                </a>
+                <span>•</span>
+                <a href="tel:8400003322" className="hover:opacity-80 transition-opacity font-bold text-xl">
+                  84000 03322
+                </a>
+              </div>
             </div>
           </div>
         </section>

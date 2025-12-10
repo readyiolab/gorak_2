@@ -39,15 +39,13 @@ const Footer = () => {
               technicians across Gorakhpur and nearby areas.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-primary transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/profile.php?id=61585150221368" className="hover:text-primary transition-colors" aria-label="Facebook">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-primary transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/lbservicesgkp/" className="hover:text-primary transition-colors" aria-label="Instagram">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-primary transition-colors" aria-label="Twitter">
-                <Twitter className="w-5 h-5" />
-              </a>
+             
             </div>
           </div>
 

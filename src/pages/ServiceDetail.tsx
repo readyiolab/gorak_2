@@ -24,7 +24,7 @@ const serviceData: Record<string, {
       "AC Maintenance Service",
     ],
     brands: ["LG", "Samsung", "Voltas", "Daikin", "Hitachi", "Whirlpool", "Blue Star", "Carrier", "Godrej"],
-    priceRange: "₹299 - ₹2,999",
+    priceRange: "₹99 - ₹2,999",
     warranty: "30-90 Days",
   },
   "electrician": {
@@ -38,7 +38,7 @@ const serviceData: Record<string, {
       "Light Fitting",
       "Inverter & UPS Installation",
     ],
-    priceRange: "₹149 - ₹999",
+    priceRange: "₹99 - ₹999",
     warranty: "30 Days",
   },
   "plumber": {
@@ -52,7 +52,7 @@ const serviceData: Record<string, {
       "Water Tank Cleaning",
       "Bathroom Fitting",
     ],
-    priceRange: "₹149 - ₹1,499",
+    priceRange: "₹99 - ₹1,499",
     warranty: "30 Days",
   },
   "home-cleaning": {
@@ -69,6 +69,20 @@ const serviceData: Record<string, {
     priceRange: "₹499 - ₹4,999",
     warranty: "Service Guarantee",
   },
+  "carpet-cleaning": {
+    title: "Carpet Cleaning Service in Gorakhpur",
+    description: "Professional carpet and rug cleaning with latest technology. We handle stain removal, deep cleaning, and odor elimination for all types of carpets.",
+    services: [
+      "Deep Carpet Cleaning",
+      "Stain Removal",
+      "Rug Cleaning",
+      "Odor Elimination",
+      "Carpet Drying",
+      "Pet Stain Treatment",
+    ],
+    priceRange: "₹99 - ₹1,999",
+    warranty: "Service Guarantee",
+  },
   "ro-service": {
     title: "RO Water Purifier Service in Gorakhpur",
     description: "Complete RO water purifier service including filter change, membrane replacement, and annual maintenance. We service all RO brands.",
@@ -81,7 +95,7 @@ const serviceData: Record<string, {
       "New RO Installation",
     ],
     brands: ["Kent", "Aquaguard", "Livpure", "Pureit", "Blue Star", "Havells"],
-    priceRange: "₹299 - ₹2,499",
+    priceRange: "₹99 - ₹2,499",
     warranty: "30-90 Days",
   },
   "pest-control": {
@@ -98,6 +112,272 @@ const serviceData: Record<string, {
     priceRange: "₹399 - ₹3,999",
     warranty: "60-90 Days",
   },
+  "car-washing": {
+    title: "Car Washing Service in Gorakhpur",
+    description: "Professional car washing and cleaning service. Quick and affordable car wash for all vehicle types.",
+    services: [
+      "Exterior Car Wash",
+      "Interior Vacuuming",
+      "Window Cleaning",
+      "Water Spray Wash",
+      "Quick Wash Service",
+      "Fleet Washing",
+    ],
+    priceRange: "₹99 - ₹499",
+    warranty: "Same Day Service",
+  },
+  "car-detailing": {
+    title: "Car Detailing Service in Gorakhpur",
+    description: "Premium car detailing service including polishing, waxing, and complete interior detailing.",
+    services: [
+      "Car Polishing",
+      "Wax Coating",
+      "Interior Deep Clean",
+      "Leather Care",
+      "Engine Cleaning",
+      "Paint Protection",
+    ],
+    priceRange: "₹499 - ₹3,999",
+    warranty: "Service Guarantee",
+  },
+  "car-cleaning": {
+    title: "Complete Car Cleaning in Gorakhpur",
+    description: "Comprehensive car cleaning service covering exterior and interior cleaning with professional care.",
+    services: [
+      "Full Body Wash",
+      "Interior Vacuuming",
+      "Dashboard Cleaning",
+      "Seat Cleaning",
+      "Carpet Cleaning",
+      "Air Freshening",
+    ],
+    priceRange: "₹199 - ₹1,499",
+    warranty: "Same Day Service",
+  },
+  "event-management": {
+    title: "Event Management Service in Gorakhpur",
+    description: "Complete event management services for all types of events - birthdays, weddings, corporate events, and more.",
+    services: [
+      "Event Planning & Coordination",
+      "Venue Selection & Booking",
+      "Vendor Management",
+      "Decoration & Setup",
+      "Catering Coordination",
+      "Photography & Videography",
+    ],
+    priceRange: "₹5,000 - ₹1,00,000+",
+    warranty: "100% Satisfaction",
+  },
+  "marriage-planning": {
+    title: "Marriage Planning Service in Gorakhpur",
+    description: "Professional wedding planning service to make your special day perfect. Complete wedding management from planning to execution.",
+    services: [
+      "Wedding Planning",
+      "Venue Management",
+      "Decoration Design",
+      "Catering Management",
+      "Guest Coordination",
+      "Theme & Styling",
+    ],
+    priceRange: "₹50,000 - ₹5,00,000+",
+    warranty: "100% Satisfaction",
+  },
+  "marriage-hall": {
+    title: "Marriage Hall Booking in Gorakhpur",
+    description: "Premium marriage halls and banquet spaces available for weddings, receptions, and all types of events.",
+    services: [
+      "Indoor Banquet Hall",
+      "Outdoor Lawn Space",
+      "Catering Facility",
+      "Parking Available",
+      "Sound & Lighting",
+      "Customizable Setup",
+    ],
+    priceRange: "₹10,000 - ₹2,00,000",
+    warranty: "Flexible Cancellation",
+  },
+  "flower-decoration": {
+    title: "Flower Decoration Service in Gorakhpur",
+    description: "Beautiful flower arrangements and decorations for weddings, events, and celebrations.",
+    services: [
+      "Wedding Stage Decoration",
+      "Gate Decoration",
+      "Floral Arrangements",
+      "Table Decorations",
+      "Ceiling Drapes",
+      "Flower Installation",
+    ],
+    priceRange: "₹5,000 - ₹1,00,000+",
+    warranty: "Custom Design",
+  },
+  "catering": {
+    title: "Catering Services in Gorakhpur",
+    description: "Professional catering service for all your events with authentic cuisine and quality service.",
+    services: [
+      "Menu Planning",
+      "Food Preparation",
+      "Serving Staff",
+      "Equipment Provision",
+      "Beverage Service",
+      "Dessert & Customization",
+    ],
+    priceRange: "₹200 - ₹2,000 per plate",
+    warranty: "Quality Guarantee",
+  },
+  "bhajan-mandali": {
+    title: "Bhajan Mandali for Events in Gorakhpur",
+    description: "Professional bhajan mandali groups for wedding ceremonies, religious events, and celebrations.",
+    services: [
+      "Bhajan Performance",
+      "Traditional Singing",
+      "Wedding Ceremony Bhajan",
+      "Religious Event Singing",
+      "Group Coordination",
+      "Custom Song Selection",
+    ],
+    priceRange: "₹5,000 - ₹50,000",
+    warranty: "Professional Performance",
+  },
+  "kirtan-party": {
+    title: "Kirtan Party Booking in Gorakhpur",
+    description: "Book professional kirtan performers for your religious events and celebrations.",
+    services: [
+      "Kirtan Performance",
+      "Devotional Singing",
+      "Musical Accompaniment",
+      "Group Kirtan",
+      "Event Coordination",
+      "Audio Setup",
+    ],
+    priceRange: "₹5,000 - ₹40,000",
+    warranty: "Professional Service",
+  },
+  "dholak-tabla": {
+    title: "Dholak & Tabla Players in Gorakhpur",
+    description: "Professional percussion musicians for your events - Dholak and Tabla players for weddings and celebrations.",
+    services: [
+      "Dholak Playing",
+      "Tabla Performance",
+      "Live Music Accompaniment",
+      "Wedding Music",
+      "Event Performance",
+      "Professional Musicians",
+    ],
+    priceRange: "₹3,000 - ₹30,000",
+    warranty: "Professional Performance",
+  },
+  "singer-booking": {
+    title: "Geet/Bhakti Singer Booking in Gorakhpur",
+    description: "Book talented singers for bhakti geet and traditional songs for your events.",
+    services: [
+      "Bhakti Geet Singing",
+      "Traditional Folk Songs",
+      "Wedding Songs",
+      "Event Performance",
+      "Custom Repertoire",
+      "Professional Quality",
+    ],
+    priceRange: "₹3,000 - ₹40,000",
+    warranty: "Quality Performance",
+  },
+  "shiv-charcha": {
+    title: "Shiv Charcha Group Booking in Gorakhpur",
+    description: "Professional Shiv Charcha groups for religious celebrations and spiritual events.",
+    services: [
+      "Shiv Charcha Performance",
+      "Spiritual Discourse",
+      "Group Singing",
+      "Event Management",
+      "Priest Coordination",
+      "Full Event Setup",
+    ],
+    priceRange: "₹10,000 - ₹1,00,000",
+    warranty: "Professional Service",
+  },
+  "puja-pandit": {
+    title: "Pandit for Satyanarayan Katha & Puja-Paath in Gorakhpur",
+    description: "Experienced pandits for Satyanarayan Katha, Grih Pravesh, and all types of puja ceremonies.",
+    services: [
+      "Satyanarayan Katha",
+      "Grih Pravesh Puja",
+      "Housewarming Ceremony",
+      "Religious Rituals",
+      "Puja Guidance",
+      "Mantra Chanting",
+    ],
+    priceRange: "₹2,000 - ₹50,000",
+    warranty: "Experienced Pandits",
+  },
+  "choreographer": {
+    title: "Choreographer Service in Gorakhpur",
+    description: "Professional choreographers for wedding dances, performances, and event entertainment.",
+    services: [
+      "Wedding Dance Choreography",
+      "Group Dance Choreography",
+      "Theme Dance Creation",
+      "Performance Training",
+      "Event Coordination",
+      "Costume Guidance",
+    ],
+    priceRange: "₹5,000 - ₹100,000",
+    warranty: "Professional Choreography",
+  },
+  "photographer": {
+    title: "Professional Photographer in Gorakhpur",
+    description: "Professional photography services for weddings, events, and all occasions.",
+    services: [
+      "Wedding Photography",
+      "Event Photography",
+      "Portrait Shoots",
+      "Album Creation",
+      "Video Coverage",
+      "Editing & Delivery",
+    ],
+    priceRange: "₹10,000 - ₹2,00,000+",
+    warranty: "Quality Assurance",
+  },
+  "interior-design": {
+    title: "Interior Design Service in Gorakhpur",
+    description: "Professional interior design services for homes, offices, and commercial spaces.",
+    services: [
+      "Space Planning",
+      "Design Consultation",
+      "3D Visualization",
+      "Material Selection",
+      "Furniture Coordination",
+      "Project Management",
+    ],
+    priceRange: "₹10,000 - ₹5,00,000+",
+    warranty: "Custom Design",
+  },
+  "3d-design": {
+    title: "3D Design Service in Gorakhpur",
+    description: "Professional 3D design and visualization for interior and architectural projects.",
+    services: [
+      "3D Rendering",
+      "Virtual Walkthrough",
+      "Interior Visualization",
+      "Architectural Design",
+      "Product Mockups",
+      "Realistic Visualization",
+    ],
+    priceRange: "₹5,000 - ₹100,000+",
+    warranty: "Professional Quality",
+  },
+  "2d-design": {
+    title: "2D Design Service in Gorakhpur",
+    description: "Professional 2D design services for architectural and interior design projects.",
+    services: [
+      "Floor Plans",
+      "Elevation Drawings",
+      "Technical Drawings",
+      "Layout Design",
+      "Design Documentation",
+      "CAD Drawings",
+    ],
+    priceRange: "₹2,000 - ₹50,000+",
+    warranty: "Professional Design",
+  },
 };
 
 const defaultService = {
@@ -110,7 +390,7 @@ const defaultService = {
     "Quality Guarantee",
     "Post-Service Support",
   ],
-  priceRange: "Contact for Quote",
+  priceRange: "₹99 onwards",
   warranty: "Service Warranty",
 };
 
@@ -154,14 +434,14 @@ const ServiceDetail = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" asChild>
-                  <a href="tel:+919876543210" className="flex items-center gap-2">
+                  <a href="tel:9820995910" className="flex items-center gap-2">
                     <Phone className="w-5 h-5" />
-                    Call Now
+                    Call Now - 98209 95910
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
                   <a 
-                    href="https://wa.me/919876543210" 
+                    href="https://wa.me/919820995910" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
@@ -276,6 +556,29 @@ const ServiceDetail = () => {
                   >
                     <Link to="/contact">Get Free Estimate</Link>
                   </Button>
+                </div>
+
+                {/* Contact Card */}
+                <div className="bg-card rounded-xl border border-border p-6">
+                  <h3 className="text-lg font-bold text-foreground mb-4">
+                    Direct Contact
+                  </h3>
+                  <div className="space-y-3">
+                    <a 
+                      href="tel:9820995910"
+                      className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-semibold"
+                    >
+                      <Phone className="w-5 h-5" />
+                      98209 95910
+                    </a>
+                    <a 
+                      href="tel:8400003322"
+                      className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-semibold"
+                    >
+                      <Phone className="w-5 h-5" />
+                      84000 03322
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
