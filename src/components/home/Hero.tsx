@@ -43,9 +43,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-secondary-foreground/80 mb-8 leading-relaxed">
-            Professional technicians for AC repair, plumbing, electrical work, 
-            appliance repair, cleaning & more. Book trusted home services in 
-            Gorakhpur within 60 minutes.
+          Professional technicians for AC repair, plumbing, electrical work, appliance repair, cleaning & more. Book trusted home services in Gorakhpur within 60 minutes.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

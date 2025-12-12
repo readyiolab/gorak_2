@@ -60,12 +60,16 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      details: ["Basaratpur, Gorakhpur", "Uttar Pradesh"],
+      details: [
+        "Office No.8, House No. 806/A, Vishwakarma Sadan",
+        "Ashok Nagar, Basharatpur",
+        "Gorakhpur – 273004"
+      ],
     },
     {
       icon: Clock,
       title: "Working Hours",
-      details: ["8 AM – 10 PM", "All Days Open"],
+      details: ["8 am – 10 pm", "24 hr"],
     },
   ];
 

@@ -4,18 +4,7 @@ import Layout from "@/components/layout/Layout";
 import { ArrowRight } from "lucide-react";
 
 const serviceCategories = [
-  {
-    title: "Appliance Repair Services",
-    services: [
-      { name: "AC Repair, Gas Filling & Installation", slug: "ac-repair" },
-      { name: "Microwave Repair", slug: "microwave-repair" },
-      { name: "RO Water Purifier Service", slug: "ro-service" },
-      { name: "Water Cooler & Air Cooler Service", slug: "cooler-service" },
-      { name: "Inverter Repair", slug: "inverter-repair" },
-      { name: "TV Repair", slug: "tv-repair" },
-      { name: "Water Dispenser Repair", slug: "water-dispenser" },
-    ],
-  },
+  
   {
     title: "Home Repair & Maintenance",
     services: [

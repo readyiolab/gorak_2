@@ -100,11 +100,11 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span className="opacity-80">Basaratpur, Gorakhpur, Uttar Pradesh</span>
+                <span className="opacity-80">Office No.8, House No. 806/A, Vishwakarma Sadan, Ashok Nagar, Basharatpur, Gorakhpur – 273004</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Clock className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span className="opacity-80">8 AM – 10 PM (All Days)</span>
+                <span className="opacity-80">24 hr | 8 am – 10 pm</span>
               </li>
             </ul>
           </div>
