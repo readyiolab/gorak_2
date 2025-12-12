@@ -70,7 +70,7 @@ const Contact = () => {
     {
       icon: Clock,
       title: "Working Hours",
-      details: ["8 am – 10 pm", "24 hr"],
+      details: [ "24 hr"],
     },
   ];
 
