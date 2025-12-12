@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone, MessageCircle, ArrowRight, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroBg from "@/assets/hero-bg.jpg";
+
 
 const Hero = () => {
   return (
@@ -22,7 +22,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://media.istockphoto.com/id/1365382448/photo/smilling-young-indian-engineer-or-repairman-showing-thumbs-up-sign-or-hand-gesture-while.webp?a=1&b=1&s=612x612&w=0&k=20&c=f6jdpvziBSdCKmRqmgsTqCNNG_TtMy11NEi_6rKsXwM="
+          src="/hero.png"
           alt="Professional home services"
           className="w-full h-full object-cover"
         />
@@ -43,7 +43,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-secondary-foreground/80 mb-8 leading-relaxed">
-          Professional technicians for AC repair, plumbing, electrical work, appliance repair, cleaning & more. Book trusted home services in Gorakhpur within 60 minutes.
+          Professional technicians for AC repair, plumbing, electrical work, interior design, cleaning & more. Book trusted home services in Gorakhpur within 60 minutes.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

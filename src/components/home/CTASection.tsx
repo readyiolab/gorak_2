@@ -46,7 +46,7 @@ const CTASection = () => {
           </div>
 
           <p className="text-primary-foreground/60 text-sm mt-6">
-            Working Hours: 8 AM – 10 PM (All Days)
+            Working Hours: 24 hr | 8 am – 10 pm
           </p>
         </div>
       </div>

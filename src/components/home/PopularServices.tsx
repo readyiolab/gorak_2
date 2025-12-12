@@ -15,24 +15,14 @@ const popularServices = [
     price: "From ₹149",
     slug: "electrician",
   },
-  {
-    title: "Geyser Repair",
-    description: "Expert geyser repair and installation service for all brands.",
-    price: "From ₹299",
-    slug: "geyser-service",
-  },
+ 
   {
     title: "Complete Home Cleaning",
     description: "Deep cleaning for your entire home including kitchen, bathroom, and living areas.",
     price: "From ₹499",
     slug: "home-cleaning",
   },
-  {
-    title: "Water Purifier (RO) Service",
-    description: "RO repair, filter change, and annual maintenance for all brands.",
-    price: "From ₹299",
-    slug: "ro-service",
-  },
+ 
   {
     title: "Interior Renovation",
     description: "Complete interior renovation including false ceiling, painting, and woodwork.",

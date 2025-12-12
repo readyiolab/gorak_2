@@ -19,18 +19,20 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-sm border-b border-border">
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto ">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">LB</span>
-            </div>
-            <div className="hidden sm:block">
-              <span className="font-bold text-lg text-foreground">LB Services</span>
-              <span className="block text-xs text-muted-foreground">Gorakhpur</span>
-            </div>
-          </Link>
+          <Link 
+              to="/" 
+              className="flex items-center hover:opacity-80 transition-opacity"
+            >
+              <img 
+                src="/logo.png" 
+                alt="LB Services Gorakhpur" 
+                className="h-36 w-auto"
+              />
+            </Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
@@ -38,9 +40,8 @@ const Navbar = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  isActive(link.path) ? "text-primary" : "text-foreground"
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-primary ${isActive(link.path) ? "text-primary" : "text-foreground"
+                  }`}
               >
                 {link.name}
               </Link>
@@ -79,9 +80,8 @@ const Navbar = () => {
                   key={link.path}
                   to={link.path}
                   onClick={() => setIsOpen(false)}
-                  className={`text-sm font-medium transition-colors hover:text-primary ${
-                    isActive(link.path) ? "text-primary" : "text-foreground"
-                  }`}
+                  className={`text-sm font-medium transition-colors hover:text-primary ${isActive(link.path) ? "text-primary" : "text-foreground"
+                    }`}
                 >
                   {link.name}
                 </Link>

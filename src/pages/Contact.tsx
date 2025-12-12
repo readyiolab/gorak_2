@@ -14,6 +14,7 @@ const Contact = () => {
     phone: "",
     email: "",
     service: "",
+    location:"",
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -34,7 +35,7 @@ const Contact = () => {
       description: "We'll get back to you within 30 minutes.",
     });
     
-    setFormData({ name: "", phone: "", email: "", service: "", message: "" });
+    setFormData({ name: "", phone: "", email: "", service: "", message: "" ,location:""});
     setIsSubmitting(false);
   };
 
@@ -79,8 +80,7 @@ const Contact = () => {
     "Plumber Service",
     "Home Cleaning",
     "Pest Control",
-    "RO Service",
-    "Geyser Service",
+   
     "Carpenter Service",
     "Painter Service",
     "Other",
@@ -188,6 +188,20 @@ const Contact = () => {
                         </option>
                       ))}
                     </select>
+                  </div>
+
+                  <div>
+                    <label htmlFor="locations" className="block text-sm font-medium text-foreground mb-2">
+                      Location
+                    </label>
+                    <Input
+                      id="location"
+                      name="location"
+                      type="location"
+                      value={formData.location}
+                      onChange={handleChange}
+                      placeholder="Enter location"
+                    />
                   </div>
 
                   <div>

@@ -33,7 +33,7 @@ const About = () => {
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 LB Services Gorakhpur is a trusted home service company offering AC repair, 
-                electrical work, appliance repair, plumbing, home cleaning, interior services, 
+                electrical work,  plumbing, home cleaning, interior design, 
                 and automotive services at your doorstep. Our vision is to make home maintenance 
                 simple, affordable, and professional for every customer in Gorakhpur.
               </p>
