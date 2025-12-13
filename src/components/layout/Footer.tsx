@@ -8,7 +8,7 @@ const Footer = () => {
     "Plumber Service",
     "Home Cleaning",
     "Pest Control",
-    "RO Service",
+   
   ];
 
   const quickLinks = [
