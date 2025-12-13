@@ -25,15 +25,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">LB</span>
-              </div>
-              <div>
-                <span className="font-bold text-lg">LB Services</span>
-                <span className="block text-xs opacity-80">Gorakhpur</span>
-              </div>
-            </div>
+            <img src="./logo.png" alt="logo" className="h-12 mb-10" />
             <p className="text-sm opacity-80 mb-4">
               LB Services Gorakhpur provides verified and affordable home services with trained 
               technicians across Gorakhpur and nearby areas.

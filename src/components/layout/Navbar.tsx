@@ -29,7 +29,7 @@ const Navbar = () => {
             <img 
               src="/logo.png" 
               alt="LB Services Gorakhpur" 
-              className="h-20 md:h-24 w-auto object-contain"
+              className="h-16 md:h-16 w-auto object-contain"
             />
           </Link>
 

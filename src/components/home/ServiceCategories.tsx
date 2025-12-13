@@ -26,11 +26,11 @@ const services = [
   { name: "Makeup & Mehndi Artist", icon: Heart, slug: "makeup-artist" },
   { name: "Physiotherapy at Home", icon: Activity, slug: "physiotherapy" },
   { name: "Event Management", icon: PartyPopper, slug: "event-management" },
-  { name: "Glass Cleaning", icon: Glasses, slug: "glass-cleaning" },
+  { name: "Glass Cleaning", icon: Sparkles, slug: "glass-cleaning" },
 
   // Newly Added Services
   { name: "Interior Design", icon: Palette, slug: "interior-design" },
-  { name: "AC & Tiles Fitter Near Me", icon: Wrench, slug: "ac-tiles-fitter" },
+  { name: " Tiles Fitter Near Me", icon: Wrench, slug: "tiles-fitter" },
   { name: "Home Repair & Maintenance", icon: Wrench, slug: "home-repair-maintenance" },
 ];
 
