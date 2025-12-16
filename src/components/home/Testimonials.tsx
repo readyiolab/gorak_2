@@ -22,13 +22,7 @@ const testimonials = [
     text: "Excellent home cleaning service! My house has never looked this clean. Will definitely book again for regular cleaning.",
     service: "Home Cleaning",
   },
-  {
-    name: "Sunita Gupta",
-    location: "Civil Lines, Gorakhpur",
-    rating: 5,
-    text: "Very happy with the RO service. The technician replaced the filters and the water quality has improved significantly.",
-    service: "RO Service",
-  },
+  
 ];
 
 const Testimonials = () => {
