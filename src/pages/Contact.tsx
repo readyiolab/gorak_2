@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import { contactApi } from "@/lib/api/forms";
 import { Phone, Mail, MapPin, Clock, MessageCircle, Send } from "lucide-react";
 
 const Contact = () => {
@@ -27,16 +28,38 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    toast({
-      title: "Message Sent!",
-      description: "We'll get back to you within 30 minutes.",
-    });
-    
-    setFormData({ name: "", phone: "", email: "", service: "", message: "" ,location:""});
-    setIsSubmitting(false);
+    try {
+      const data = await contactApi.submitServices({
+        contact_name: formData.name,
+        contact_phone: formData.phone,
+        contact_email: formData.email,
+        contact_service: formData.service,
+        contact_location: formData.location,
+        contact_message: formData.message,
+      });
+
+      if (data.success) {
+        toast({
+          title: "Message Sent!",
+          description: "We'll get back to you within 30 minutes.",
+        });
+        setFormData({ name: "", phone: "", email: "", service: "", message: "", location: "" });
+      } else {
+        toast({
+          title: "Error",
+          description: data.message || "Failed to submit form",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to connect to server",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
@@ -283,7 +306,7 @@ const Contact = () => {
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
                     <Button variant="secondary" size="lg" asChild>
-                      <a href="tel:+919876543210" className="flex items-center gap-2">
+                      <a href="tel:+919820995910" className="flex items-center gap-2">
                         <Phone className="w-5 h-5" />
                         Call Now
                       </a>
@@ -295,7 +318,7 @@ const Contact = () => {
                       className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
                     >
                       <a 
-                        href="https://wa.me/919876543210" 
+                        href="https://wa.me/919820995910" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center gap-2"
