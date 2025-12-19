@@ -45,7 +45,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
             <a 
-              href="tel:9820995910" 
+              href="tel:+919820995910" 
               className="flex items-center justify-center gap-2 px-6 py-3 bg-orange-600 text-white rounded-md font-medium hover:bg-orange-700 transition-colors text-sm sm:text-base"
             >
               <Phone className="w-4 h-4 sm:w-5 sm:h-5" />

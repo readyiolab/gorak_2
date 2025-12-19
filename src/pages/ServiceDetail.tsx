@@ -434,9 +434,9 @@ const ServiceDetail = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" asChild>
-                  <a href="tel:9820995910" className="flex items-center gap-2">
+                  <a href="tel:+919820995910" className="flex items-center gap-2">
                     <Phone className="w-5 h-5" />
-                    Call Now - 98209 95910
+                    Call Now - +91 98209 95910
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
@@ -565,18 +565,18 @@ const ServiceDetail = () => {
                   </h3>
                   <div className="space-y-3">
                     <a 
-                      href="tel:9820995910"
+                      href="tel:+919820995910"
                       className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-semibold"
                     >
                       <Phone className="w-5 h-5" />
-                      98209 95910
+                      +91 98209 95910
                     </a>
                     <a 
-                      href="tel:8400003322"
+                      href="tel:+918400003322"
                       className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-semibold"
                     >
                       <Phone className="w-5 h-5" />
-                      84000 03322
+                      +91 84000 03322
                     </a>
                   </div>
                 </div>

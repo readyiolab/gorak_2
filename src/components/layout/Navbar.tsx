@@ -51,7 +51,7 @@ const Navbar = () => {
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
             <Button variant="outline" size="sm" asChild>
-              <a href="tel:+919876543210" className="flex items-center gap-2">
+              <a href="tel:+919820995910" className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
                 Call Now
               </a>
@@ -116,7 +116,7 @@ const Navbar = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col gap-3 p-6 border-t border-border">
             <Button variant="outline" size="lg" asChild>
-              <a href="tel:+919876543210" className="flex items-center justify-center gap-2">
+              <a href="tel:+919820995910" className="flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 Call Now
               </a>

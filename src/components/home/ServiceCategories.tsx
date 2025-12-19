@@ -12,13 +12,14 @@ import {
   PartyPopper,
   Glasses,
   Palette,        // for Interior Design
-  Wrench,         // for AC & Tiles Fitter + Home Repair
+  Wrench,
+  PaintBucket,         // for AC & Tiles Fitter + Home Repair
 } from "lucide-react";
 
 const services = [
   { name: "AC Repair & Installation", icon: Wind, slug: "ac-repair" },
   { name: "Electrician Service", icon: Zap, slug: "electrician" },
-  { name: "Plumber in Gorakhpur", icon: Droplets, slug: "plumber" },
+  { name: "Plumber Service", icon: Droplets, slug: "plumber" },
   { name: "Carpenter Service", icon: Hammer, slug: "carpenter" },
   { name: "Home Cleaning", icon: Sparkles, slug: "home-cleaning" },
   { name: "Pest Control Service", icon: Bug, slug: "pest-control" },
@@ -27,10 +28,11 @@ const services = [
   { name: "Physiotherapy at Home", icon: Activity, slug: "physiotherapy" },
   { name: "Event Management", icon: PartyPopper, slug: "event-management" },
   { name: "Glass Cleaning", icon: Sparkles, slug: "glass-cleaning" },
+  {name :"False Ceiling Service", icon: PaintBucket, slug: "false-ceiling-painting"},
 
   // Newly Added Services
   { name: "Interior Design", icon: Palette, slug: "interior-design" },
-  { name: " Tiles Fitter Near Me", icon: Wrench, slug: "tiles-fitter" },
+  { name: " Tiles Fitting", icon: Wrench, slug: "tiles-fitter" },
   { name: "Home Repair & Maintenance", icon: Wrench, slug: "home-repair-maintenance" },
 ];
 

@@ -43,14 +43,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 98765 43210", "+91 98765 43211"],
-      action: "tel:+919876543210",
+      details: ["+91 98209 95910", "+91 84000 03322"],
+      action: "tel:+919820995910",
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      details: ["+91 98765 43210"],
-      action: "https://wa.me/919876543210",
+      details: ["+91 98209 95910"],
+      action: "https://wa.me/919820995910",
     },
     {
       icon: Mail,
@@ -92,7 +92,7 @@ const Contact = () => {
         <title>Contact Us | LB Services Gorakhpur</title>
         <meta 
           name="description" 
-          content="Contact LB Services Gorakhpur for all your home service needs. Call +91 98765 43210 or WhatsApp us for instant booking. Working hours: 8 AM – 10 PM." 
+          content="Contact LB Services Gorakhpur for all your home service needs. Call +91 98209 95910 or WhatsApp us for instant booking. Working hours: 8 AM – 10 PM." 
         />
       </Helmet>
       
