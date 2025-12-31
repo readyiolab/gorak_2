@@ -66,14 +66,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 98209 95910", "+91 84000 03322"],
-      action: "tel:+919820995910",
+      details: ["+919918012227", "+919918012227"],
+      action: "tel:+919918012227",
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      details: ["+91 98209 95910"],
-      action: "https://wa.me/919820995910",
+      details: ["+919918012227"],
+      action: "https://wa.me/919918012227",
     },
     {
       icon: Mail,
@@ -97,17 +97,70 @@ const Contact = () => {
     },
   ];
 
-  const services = [
-    "AC Repair & Installation",
-    "Electrician Service",
-    "Plumber Service",
-    "Home Cleaning",
-    "Pest Control",
-   
-    "Carpenter Service",
-    "Painter Service",
-    "Other",
-  ];
+ const services = [
+  // Home Repair & Maintenance
+  "AC Repair & Installation",
+  "Electrician",
+  "Plumber",
+  "Carpenter",
+  "Home Painter",
+  "Gardening Services",
+
+  // Cleaning & Hygiene
+  "Home Cleaning",
+  "Home Deep Cleaning",
+  "Kitchen Cleaning",
+  "Sofa Cleaning",
+  "Mattress Cleaning",
+  "Carpet Cleaning",
+  "Pest Control",
+  "Sanitization Service",
+  "Glass Cleaning",
+
+  // Car Services
+  "Car Washing",
+  "Car Detailing",
+  "Car Cleaning",
+
+  // Lifestyle & Personal Services
+  "Makeup Artist",
+  "Bridal Makeup",
+  "Mehndi Artist",
+
+  // Movers & Packers
+  "Local Shifting",
+  "Domestic Shifting",
+  "Packing Materials",
+  "Labour Services",
+
+  // Healthcare at Home
+  "Physiotherapy at Home",
+
+  // Event Management & Entertainment
+  "Event Management",
+  "Marriage Planning",
+  "Birthday Party",
+  "Marriage Hall",
+  "Flower Decoration",
+  "Catering Services",
+  "Bhajan Mandali for Events",
+  "Kirtan Party Booking",
+  "Dholak & Tabla Players",
+  "Geet/Bhakti Singer Booking",
+  "Shiv Charcha Group Booking",
+  "Satyanarayan Katha & Puja-Paath Pandit",
+  "Choreographer",
+  "Photographer",
+
+  // Interior Design & Décor
+  "Interior Designing",
+  "3D Design",
+  "2D Design",
+
+  // Other
+  "Other"
+];
+
 
   return (
     <>
@@ -306,7 +359,7 @@ const Contact = () => {
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
                     <Button variant="secondary" size="lg" asChild>
-                      <a href="tel:+919820995910" className="flex items-center gap-2">
+                      <a href="tel:+919918012227" className="flex items-center gap-2">
                         <Phone className="w-5 h-5" />
                         Call Now
                       </a>
@@ -318,7 +371,7 @@ const Contact = () => {
                       className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
                     >
                       <a 
-                        href="https://wa.me/919820995910" 
+                        href="https://wa.me/919918012227" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center gap-2"

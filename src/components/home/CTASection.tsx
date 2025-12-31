@@ -22,7 +22,7 @@ const CTASection = () => {
               asChild 
               className="text-base"
             >
-              <a href="tel:+919820995910" className="flex items-center gap-2">
+              <a href="tel:+919918012227" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 Call Now: +91 98209 95910
               </a>
@@ -34,7 +34,7 @@ const CTASection = () => {
               className="text-base bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
             >
               <a 
-                href="https://wa.me/919820995910" 
+                href="https://wa.me/919918012227" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"

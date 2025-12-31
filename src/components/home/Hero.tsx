@@ -45,14 +45,14 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
             <a 
-              href="tel:+919820995910" 
+              href="tel:+919918012227" 
               className="flex items-center justify-center gap-2 px-6 py-3 bg-orange-600 text-white rounded-md font-medium hover:bg-orange-700 transition-colors text-sm sm:text-base"
             >
               <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
               Call Now
             </a>
             <a 
-              href="https://wa.me/919820995910" 
+              href="https://wa.me/919918012227" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 px-6 py-3 bg-transparent border-2 border-white/40 text-white rounded-md font-medium hover:bg-white/10 transition-colors text-sm sm:text-base"
