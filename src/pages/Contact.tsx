@@ -66,7 +66,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+919918012227", "+919918012227"],
+      details: ["+919918012227"],
       action: "tel:+919918012227",
     },
     {

@@ -24,7 +24,7 @@ const CTASection = () => {
             >
               <a href="tel:+919918012227" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call Now: +91 98209 95910
+                Call Now: +91 9918012227
               </a>
             </Button>
             <Button 

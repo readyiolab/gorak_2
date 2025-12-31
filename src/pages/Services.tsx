@@ -122,13 +122,10 @@ const Services = () => {
             <div className="text-center">
               <p className="text-lg font-semibold">Call us for instant booking:</p>
               <div className="flex justify-center gap-6 mt-2 flex-wrap">
-                <a href="tel:9820995910" className="hover:opacity-80 transition-opacity font-bold text-xl">
-                  98209 95910
+                <a href="tel:9918012227" className="hover:opacity-80 transition-opacity font-bold text-xl">
+                  9918012227
                 </a>
-                <span>•</span>
-                <a href="tel:8400003322" className="hover:opacity-80 transition-opacity font-bold text-xl">
-                  84000 03322
-                </a>
+                
               </div>
             </div>
           </div>

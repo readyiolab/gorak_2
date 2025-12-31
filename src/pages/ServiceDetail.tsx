@@ -436,7 +436,7 @@ const ServiceDetail = () => {
                 <Button size="lg" asChild>
                   <a href="tel:+919918012227" className="flex items-center gap-2">
                     <Phone className="w-5 h-5" />
-                    Call Now - +91 98209 95910
+                    Call Now - +91 9918012227
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
@@ -569,15 +569,9 @@ const ServiceDetail = () => {
                       className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-semibold"
                     >
                       <Phone className="w-5 h-5" />
-                      +91 98209 95910
+                      +91 9918012227
                     </a>
-                    <a 
-                      href="tel:+918400003322"
-                      className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-semibold"
-                    >
-                      <Phone className="w-5 h-5" />
-                      +91 84000 03322
-                    </a>
+                   
                   </div>
                 </div>
               </div>
